@@ -1,0 +1,17 @@
+body {
+  text-align:center;
+    background: lightgray;
+}
+ h1 {
+  color: salmon;
+  font-weight: bold;
+ }
+
+ li {
+  list-style: none;
+ }
+
+ button {
+  background-color: black;
+  color:white;
+ }
