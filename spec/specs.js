@@ -3,7 +3,7 @@ describe('getScore', function() {
     getScore("A").should.equal(1);
   });
   
-  it("works with upper and lowercase submissions", function() {
+  it("works correctly with upper and lowercase submissions", function() {
     getScore("Aa").should.equal(2);
   });
 
@@ -19,7 +19,7 @@ describe('getScore', function() {
     getScore("  cake  ").should.equal(10);
   });
 
-  it("works correclty for each letter", function() {
+  it("works correclty for each letter in alphabet", function() {
     getScore("abcdefghijklmnopqrstuvwxyz").should.equal(87);
   });
 });
