@@ -16,7 +16,10 @@ var getScore = function(word) {
 
 $(document).ready( function () {
   $("form#word").submit(function(event) {
-
-  event.preventDefault();  
+    $('p').text(score);
+    var submission = $("#wordInput").val();
+    var score = getScore(submission);
+    $('p').text("Score for " +submission +" is "+ score + " points");
+    event.preventDefault();  
   });
 });
