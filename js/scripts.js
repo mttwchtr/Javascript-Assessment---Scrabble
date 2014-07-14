@@ -18,8 +18,7 @@ $(document).ready( function () {
   $("form#word").submit(function(event) {
     var submission = $("#wordInput").val();
     var score = getScore(submission);
-    $("#word-result").text(submission);
-    $("#word-score").text(score);
+    $('p').text(score);
     $('p').show();
     event.preventDefault();  
   });

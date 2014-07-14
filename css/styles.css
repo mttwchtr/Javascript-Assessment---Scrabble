@@ -4,6 +4,10 @@
 }
 
 
+body {
+	background: url("http://subtlepatterns.com/patterns/retina_wood.png");
+}
+
 p {
 	display: none;
 }
@@ -27,12 +31,11 @@ form * {
 
 
 input {
-	margin-top: 40px;
-	font-size: 22px;
+	font-size: 30px;
 	color: black;
-	background-color: rgba(178, 189, 181,71);
-	border-radius: 20px;
-	font-style: italic;
+	background-color: rgba(20,20,20,.3);
+	font-family: Helvetica;
+	font-weight: bold;
 }
 
 button {
@@ -45,16 +48,12 @@ button {
 }
 
 button:hover {
-	color: white;
+	font-size: 35px;
 }
 
 
 p {
 	font-size: 30px;
-	font-weight: lighter;
-}
-
-span {
 	font-family: Helvetica;
 	font-weight: bold;
 }
