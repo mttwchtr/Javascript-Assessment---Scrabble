@@ -3,9 +3,11 @@
 	font-family: 'Julius Sans One', sans-serif;
 }
 
-body {
-	background: url("http://subtlepatterns.com/patterns/retina_wood.png");
+
+p {
+	display: none;
 }
+
 
 
 h1 {
@@ -23,19 +25,21 @@ form * {
 	border-radius: none;
 }
 
+
 input {
-	color: white;
-	background-color: black;
-	padding: 2px 0;
-	line-height: 23px;
-	font-family: Helvetica;
-	font-weight: bold;
-	border-radius: 5px;
+	margin-top: 40px;
+	font-size: 22px;
+	color: black;
+	background-color: rgba(178, 189, 181,71);
+	border-radius: 20px;
+	font-style: italic;
 }
 
 button {
+	display: block;
+	margin: 0 auto;
 	text-align: center;
-	font-size: 20px;
+	font-size: 26px;
 	background-color: rgba(0,0,0,0);
 	color: black;
 }
@@ -44,3 +48,13 @@ button:hover {
 	color: white;
 }
 
+
+p {
+	font-size: 30px;
+	font-weight: lighter;
+}
+
+span {
+	font-family: Helvetica;
+	font-weight: bold;
+}
